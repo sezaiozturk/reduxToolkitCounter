@@ -1,8 +1,8 @@
 import { View, Text, Button, SafeAreaView } from 'react-native'
 import React from 'react'
 import { Provider, useSelector, useDispatch } from 'react-redux'
-import { store } from './src/app/store'
-import { decrement, increment } from './src/features/counterSlice/counterSlice'
+import { store } from './app/store'
+import { decrement, increment } from './features/counterSlice/counterSlice'
 
 const App = () => {
   return (
